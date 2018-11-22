@@ -1,0 +1,67 @@
+<section class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 order-md-2">
+        <div class="row">
+          <p class="text-right">  
+            <span class="text-header">החלטת להישאר?</span>
+            <span class="text-header">יש לנו הטבה ייחודית בשבילך!</span>
+          </p>
+        </div>
+        <div class="row">
+            <p>  
+                <span class="text-footer">הזן את פרטיך ונציג DavidShield יצור עמך קשר לעדכון בתנאי ההטבה או חייג למוקד DavidShield בטלפון: 972-9-8920950+.</span>
+              </p>
+        </div>
+      </div>
+      <div [formGroup]="contactForm" class="col-md-6 order-md-1">
+        <div class="row align-items-center">
+          <div class="col-md-10 order-md-2">
+            <div class="position-inputs">
+              <div class="input-contrainer">
+                  <input class="input" type="text" maxlength="40" placeholder="שם מלא"
+                  formControlName="fullname">
+
+                  <div *ngIf="contactForm.controls['fullname'].hasError('required') && contactForm.controls['fullname'].touched">
+                      <div class="text-error">- אנא הזן שם</div>
+                  </div>
+                  <input class="input" type="number" max="10" placeholder="מספר טלפו"  
+                  formControlName="phoneNumber">
+                  <div *ngIf="contactForm.controls['phoneNumber'].hasError('required') && contactForm.controls['phoneNumber'].touched">
+                      <div class="text-error">- אנא הזן מספר טלפון</div>
+                  </div>
+                   <div *ngIf="contactForm.controls['phoneNumber'].hasError('maxLength') && contactForm.controls['phoneNumber'].touched">
+                      <div class="text-error">- מספר טלפון לא תקין</div>
+                  </div>
+              </div>
+              <div class="checkbox-container">
+                <div class="custom-control custom-checkbox mb-3">
+                  <input type="checkbox" class="custom-control-input" id="customCheck1" name="example1" formControlName="legalCheckbox">
+                  <label class="custom-control-label" for="customCheck1">
+                      אני מסכים למדיניות הפרטיות ותנאי השימוש של חברת דיוידשילד
+                  </label>
+                </div>
+                <div class="custom-control custom-checkbox mb-3">
+                  <input type="checkbox" class="custom-control-input" id="customCheck2" name="example2" formControlName="marketingCheckbox">
+                  <label class="custom-control-label" for="customCheck2">
+                      אני מסכים לקבל מחברת דיוידשילד חומרים שיווקיים הקשורים לביטוח
+                  </label>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-md-2 order-md-1 ">
+            <button [disabled]="contactForm.invalid" (click)="Submit()">
+            <div id="arrow" class="arrow" #test>
+              <span class="arrow-text">
+                  חזרו אלי
+              </span>
+            </div>
+          </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

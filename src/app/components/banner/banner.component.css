@@ -1,0 +1,71 @@
+.main-header{
+background-image: url("/assets/images/background.png");   
+background-size: auto 780px;
+background-position: left center;
+width: 100%;
+height: 500px;
+}
+
+.header{
+background-image: url("/assets/images/house.png");   
+background-size: auto 780px;
+background-repeat: no-repeat;
+background-position: left center;
+width: 100%;
+height: 500px;
+}
+.background-header{
+background-color: rgba(0, 33, 72, 0.43);
+width: 100%;
+height: 500px;
+}
+p{
+text-align:right;
+direction: rtl;
+color: #ffffff;
+}
+.header-text{
+font-size: 32px;
+font-weight: 700;
+}
+.footer-text{
+font-size: 18px;
+font-weight: 400;
+line-height: 34px;   
+}
+.container{
+    padding-top: 3%;
+}
+.button{
+width: 184px;
+height: 54px;
+border-radius: 2px;
+font-weight: 700;
+background-color: #ed1c24;
+color: #ffffff;
+}
+.button-text{
+padding: 16px 23px 16px 23px;
+}
+.button:hover {
+    cursor: pointer;
+}
+@media(max-width:411px){
+    .header-text{
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 28px;
+        padding-top: 36%;
+    }
+    .footer-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;  
+        }
+    section, .background{
+    height: 495px;
+    }
+    .container{
+        padding-right: 0;
+    }
+}
