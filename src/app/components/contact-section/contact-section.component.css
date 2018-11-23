@@ -134,32 +134,32 @@ button{
 
 @media(max-width:767px){
     .position-inputs{
-        max-width: 100%;
+    max-width: 100%;
     }
     section{
-        height: auto;
-        padding-bottom: 15px;
+    height: auto;
+    padding-bottom: 15px;
     }
     .arrow {
-        width: 100%;
-        border-radius: 2px;
-        max-width: 153px;
-        margin-left: auto;
-        margin-right: 0px;
-        background-position-x: 12px;
-        background-position-y: center;
-        background-size: 18px;
+    width: 100%;
+    border-radius: 2px;
+    max-width: 153px;
+    margin-left: auto;
+    margin-right: 0px;
+    background-position-x: 12px;
+    background-position-y: center;
+    background-size: 18px;
     }
 
     .arrow-text{
-        display: block;
-        color: #ed1c24;
-        font-size: 14px;
-        position: absolute;
-        font-weight: 700;
-        right: 42px;
-        top: 50%;
-        transform: translateY(-50%);
+    display: block;
+    color: #ed1c24;
+    font-size: 14px;
+    position: absolute;
+    font-weight: 700;
+    right: 42px;
+    top: 50%;
+    transform: translateY(-50%);
     }
 }
 

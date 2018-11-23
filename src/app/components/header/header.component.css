@@ -1,12 +1,12 @@
 .header-top{
-    position: fixed;
-    max-width: 100%;
-    width: 100%;
-    top:0;
-    left:0;
-    right:0;
-    background: #ffffff;
-    z-index: 2;
+position: fixed;
+max-width: 100%;
+width: 100%;
+top:0;
+left:0;
+right:0;
+background: #ffffff;
+z-index: 2;
 }
 
 .button{
@@ -32,8 +32,8 @@ margin-left: -15px;
 padding: 17px 0 17px 0;
 }
 .button-text{
-    padding: 16px 23px 16px 23px;
-    direction: rtl; 
+padding: 16px 23px 16px 23px;
+direction: rtl; 
 }
 .phone-text{
 direction: rtl; 
@@ -44,27 +44,27 @@ font-weight: 700;
 }
 @media(max-width:767px){
     .phone-link{
-        background-image: url(../../../assets/images/phone.png);
-        width: 35px;
-        height: 35px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 100%;
-        z-index: 5;
-        position: absolute;
-        top: 0; 
+    background-image: url(../../../assets/images/phone.png);
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    z-index: 5;
+    position: absolute;
+    top: 0; 
     }
     .phone-text{
-        display: none;
+    display: none;
     }
     .button{
-        display: none;
+    display: none;
     }
     .position-rel{
-        position: relative;
+    position: relative;
     }
     .position-abs{
-        position: absolute;
-        top:15px;
+    position: absolute;
+    top:15px;
     }
 }

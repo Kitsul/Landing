@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrewcondensed.css);
 
 p{
 font-family: "Open Sans Hebrew";
@@ -6,3 +7,4 @@ font-family: "Open Sans Hebrew";
 .header-conteiner{
     position: relative;
 }
+

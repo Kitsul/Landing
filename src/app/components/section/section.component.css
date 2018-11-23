@@ -24,17 +24,17 @@ span{
 color: #ed1c24; 
 }
 .height{
-    height: 50px;
+height: 50px;
 }
 @media(max-width:411px){
     strong{
-        font-size: 23px;
+    font-size: 23px;
     }
     p{
     font-size: 16px;
     line-height: 26px;
     }
     .container{
-        padding-right: 0;
+    padding-right: 0;
     }
 }

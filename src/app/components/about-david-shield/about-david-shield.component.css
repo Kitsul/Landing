@@ -10,7 +10,7 @@ margin-left: 180px;
 margin-top: 30px;
 }
 img{
-    padding-top: 28px;
+padding-top: 28px;
 }
 .tm{
 font-size: 8px;
@@ -18,52 +18,51 @@ color: #ed1c24;
 font-weight: 800;
 }
 .davidshield{
-  margin-top: 90px;
-  font-size: 32px;
-  color: #4a4a4a;
-  font-weight: 600;
-  margin-left:0;
-  padding-left:0; 
+margin-top: 90px;
+font-size: 32px;
+color: #4a4a4a;
+font-weight: 600;
+margin-left:0;
+padding-left:0; 
 }
 .text-style{
-    width: 593px;
-    height: 286px;
-    opacity: 0.9;
-    color: #4a4a4a;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 34px;
+width: 593px;
+height: 286px;
+opacity: 0.9;
+color: #4a4a4a;
+font-size: 18px;
+font-weight: 400;
+line-height: 34px;
 }
 @media(max-width:1199px){
     .text-style{
-        width: 100%;
-        height: auto;
+    width: 100%;
+    height: auto;
     }
     .about-logo {
-        margin-left: 30%;
+    margin-left: 30%;
     }
 }
 @media(max-width:991px){
     .about-logo {
-        margin-left: 0px;
+    margin-left: 0px;
         
     }
 }
 @media(max-width:767px){
     .about-logo {
-        margin-top: 15px;
-        width: auto;
-        height: auto;
-        padding-bottom: 30px;
-        margin-right: 0;
-        text-align: right;
+    margin-top: 15px;
+    width: auto;
+    height: auto;
+    padding-bottom: 30px;
+    margin-right: 0;
+    text-align: right;
     }
     img {
-        padding-top: 0;
+    padding-top: 0;
     }
     section{
-     padding: 30px 20px 30px 20px;
-
+    padding: 30px 20px 30px 20px;
     }
     .text-style{
     font-size: 16px;
@@ -73,7 +72,7 @@ font-weight: 800;
 }
 @media(max-width:411px){
     .container{
-        padding-right: 0;
+    padding-right: 0;
     }
 }
 
