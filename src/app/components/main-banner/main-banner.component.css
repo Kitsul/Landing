@@ -54,6 +54,10 @@ font-weight: 700;
 .button:hover {
     cursor: pointer;
 }
+a, a:hover {
+    text-decoration: none;
+}
+
 @media(max-width:411px){
     .header-text{
         font-size: 23px;
