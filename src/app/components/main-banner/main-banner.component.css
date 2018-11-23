@@ -11,8 +11,10 @@ width: 100%;
 height: 620px;
 position: relative;
 z-index: 1;
-margin-top: 90px;
-
+margin-top: 90px;  
+}
+.logo-banner{
+    padding-top: 50px;
 }
 .button{
 width: 184px;
@@ -72,5 +74,13 @@ a, a:hover {
         }
     section, .background{
     height: 495px;
+    }
+    .logo-banner{
+        display: none;
+    }
+}
+@media(max-width:767px){
+    .logo-banner{
+        display: none;
     }
 }
