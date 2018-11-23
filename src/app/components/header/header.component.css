@@ -33,8 +33,9 @@ padding: 17px 0 17px 0;
 }
 .button-text{
     padding: 16px 23px 16px 23px;
+    direction: rtl; 
 }
-span{
+.phone-text{
 direction: rtl; 
 }
 .header-text{
